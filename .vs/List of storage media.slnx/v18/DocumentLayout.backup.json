@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\List of storage media\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17CE6D9B-43F2-AF76-0C26-2214A252CB20}|List of storage media\\List of storage media.csproj|c:\\users\\user\\source\\repos\\list of storage media\\list of storage media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CE6D9B-43F2-AF76-0C26-2214A252CB20}|List of storage media\\List of storage media.csproj|solutionrelative:list of storage media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831E466-72F8-4421-A3A3-94CD3A6F1475}|PriceList\\PriceList.csproj|c:\\users\\user\\source\\repos\\list of storage media\\pricelist\\pricelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831E466-72F8-4421-A3A3-94CD3A6F1475}|PriceList\\PriceList.csproj|solutionrelative:pricelist\\pricelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6AAEAD-4406-48AD-89C1-F78A528A4A04}|Storage_Medium\\Storage_Medium.csproj|c:\\users\\user\\source\\repos\\list of storage media\\storage_medium\\storage_medium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6AAEAD-4406-48AD-89C1-F78A528A4A04}|Storage_Medium\\Storage_Medium.csproj|solutionrelative:storage_medium\\storage_medium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A05ED92-8FF4-4DFC-8F8F-A653E90169B2}|ISerialize\\ISerialize.csproj|c:\\users\\user\\source\\repos\\list of storage media\\iserialize\\iserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A05ED92-8FF4-4DFC-8F8F-A653E90169B2}|ISerialize\\ISerialize.csproj|solutionrelative:iserialize\\iserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFD5DFF-FB57-4EA8-B01B-217816C5521F}|ILog\\ILog.csproj|c:\\users\\user\\source\\repos\\list of storage media\\ilog\\ilog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFD5DFF-FB57-4EA8-B01B-217816C5521F}|ILog\\ILog.csproj|solutionrelative:ilog\\ilog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISerialize.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\ISerialize\\ISerialize.cs",
+              "RelativeDocumentMoniker": "ISerialize\\ISerialize.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\ISerialize\\ISerialize.cs",
+              "RelativeToolTip": "ISerialize\\ISerialize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T16:59:27.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PriceList.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\PriceList\\PriceList.cs",
+              "RelativeDocumentMoniker": "PriceList\\PriceList.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\PriceList\\PriceList.cs",
+              "RelativeToolTip": "PriceList\\PriceList.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAgwNgBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:34:01.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILog.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\ILog\\ILog.cs",
+              "RelativeDocumentMoniker": "ILog\\ILog.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\ILog\\ILog.cs",
+              "RelativeToolTip": "ILog\\ILog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T09:44:25.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Storage_Medium.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\Storage_Medium\\Storage_Medium.cs",
+              "RelativeDocumentMoniker": "Storage_Medium\\Storage_Medium.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\Storage_Medium\\Storage_Medium.cs",
+              "RelativeToolTip": "Storage_Medium\\Storage_Medium.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T09:36:36.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\List of storage media\\Program.cs",
+              "RelativeDocumentMoniker": "List of storage media\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\List of storage media\\Program.cs",
+              "RelativeToolTip": "List of storage media\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:44:03.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

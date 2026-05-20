@@ -1,0 +1,25 @@
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\List of storage media.exe
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\List of storage media.deps.json
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\List of storage media.runtimeconfig.json
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\List of storage media.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\List of storage media.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.AssemblyInfo.cs
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\refint\List of storage media.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.genruntimeconfig.cache
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\ref\List of storage media.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ILog.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\Storage_Medium.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\Storage_Medium.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ILog.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of .59CA197B.Up2Date
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\PriceList.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\PriceList.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\SoapFormatter.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ISerialize.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ISerialize.pdb

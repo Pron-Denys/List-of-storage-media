@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStorage_Medium xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Storage_Medium xsi:type="DVD_Disc">
+    <Name>Group Green</Name>
+    <Model>FM0912</Model>
+    <Item_Name>DVD диск</Item_Name>
+    <Capacity>75</Capacity>
+    <Quantity>560</Quantity>
+    <Write_Speed>12</Write_Speed>
+  </Storage_Medium>
+  <Storage_Medium xsi:type="FlashMemory">
+    <Name>Company Towers</Name>
+    <Model>G105</Model>
+    <Item_Name>Flash-пам'ять</Item_Name>
+    <Capacity>45</Capacity>
+    <Quantity>988</Quantity>
+    <USB_Speed>4</USB_Speed>
+  </Storage_Medium>
+  <Storage_Medium xsi:type="Removable_HDD">
+    <Name>Soft Company</Name>
+    <Model>HC7531</Model>
+    <Item_Name>знімний HDD</Item_Name>
+    <Capacity>50</Capacity>
+    <Quantity>1005</Quantity>
+    <Spindle_Speed>18</Spindle_Speed>
+  </Storage_Medium>
+</ArrayOfStorage_Medium>

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ILog/ILog.csproj" Id="cefd5dff-fb57-4ea8-b01b-217816c5521f" />
+  <Project Path="ISerialize/ISerialize.csproj" Id="3a05ed92-8ff4-4dfc-8f8f-a653e90169b2" />
+  <Project Path="List of storage media/List of storage media.csproj" />
+  <Project Path="PriceList/PriceList.csproj" Id="9831e466-72f8-4421-a3a3-94cd3a6f1475" />
+  <Project Path="Storage_Medium/Storage_Medium.csproj" Id="9f6aaead-4406-48ad-89c1-f78a528a4a04" />
+</Solution>
