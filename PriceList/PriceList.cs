@@ -2,11 +2,9 @@
 {
     using ISerialize;
     using Storage_Medium;
-    using System.Collections;
+    using ILog;
+    using ConsoleLog;
     using System.Runtime.Serialization;
-    using System.Runtime.Serialization.Formatters.Soap;
-    using System.Runtime.Serialization.Json;
-    using System.Xml.Serialization;
 
     [Serializable]
     [DataContract]
@@ -129,7 +127,7 @@
             }
         }
 
-        public void Search()
+        public void Search(ILog obj)
         {
             Console.Write("0 - Назва виробника\n1 - Назва моделі\n2 - Ємність носія\n" +
                 "3 - Найменування\nОберіть критерій: ");
@@ -147,7 +145,7 @@
                         foreach (var storage_medium in storage_media)
                         {
                             if (storage_medium.Name == Name)
-                                storage_medium.Print();
+                                storage_medium.Print(obj);
                         }
                         break;
                     case 1:
@@ -156,7 +154,7 @@
                         foreach (var storage_medium in storage_media)
                         {
                             if (storage_medium.Model == Model)
-                                storage_medium.Print();
+                                storage_medium.Print(obj);
                         }
                         break;
                     case 2:
@@ -168,7 +166,7 @@
                         foreach (var storage_medium in storage_media)
                         {
                             if (storage_medium.Capacity == Capacity)
-                                storage_medium.Print();
+                                storage_medium.Print(obj);
                         }
                         break;
                     case 3:
@@ -177,7 +175,7 @@
                         foreach (var storage_medium in storage_media)
                         {
                             if (storage_medium.Item_Name == Item_Name)
-                                storage_medium.Print();
+                                storage_medium.Print(obj);
                         }
                         break;
                 }
@@ -354,116 +352,15 @@
             }
         }
 
-        class SoapSerialize : ISerialize
+        public void Save(ISerialize obj)
         {
-            public void Save<T>(ref T list)
-            {
-                FileStream stream = new("Soap.xml", FileMode.Create);
-                SoapFormatter soap = new();
-                soap.Serialize(stream, list);
-                stream.Close();
-            }
-
-            public void Load<T>(ref T list)
-            {
-                FileStream stream = new("Soap.xml", FileMode.Open);
-                SoapFormatter soap = new();
-                list = (T)soap.Deserialize(stream);
-                stream.Close();
-            }
-        }
-
-        class JSONSerialize : ISerialize
-        {
-            public void Save<T>(ref T list)
-            {
-                FileStream stream = new("Storage Media.json", FileMode.Create);
-                DataContractJsonSerializer formatter = new(typeof(T));
-                formatter.WriteObject(stream, list);
-                stream.Close();
-            }
-
-            public void Load<T>(ref T list)
-            {
-                FileStream stream = new("Storage Media.json", FileMode.Open);
-                DataContractJsonSerializer formatter = new(typeof(T));
-                object? temp = formatter.ReadObject(stream);
-                if (temp is T)
-                    list = (T)temp;
-                stream.Close();
-            }
-        }
-
-        class XMLSerialize : ISerialize
-        {
-            public void Save<T>(ref T list)
-            {
-                FileStream stream = new("Storage Media.xml", FileMode.Create);
-                XmlSerializer formatter = new XmlSerializer(typeof(T));
-                formatter.Serialize(stream, list);
-                stream.Close();
-            }
-
-            public void Load<T>(ref T list)
-            {
-                FileStream stream = new("Storage Media.xml", FileMode.Open);
-                XmlSerializer formatter = new XmlSerializer(typeof(T));
-                object? temp = formatter.Deserialize(stream);
-                if (temp is T)
-                    list = (T)temp;
-                stream.Close();
-            }
-        }
-
-        public void Save()
-        {
-            Console.Write("0 - зберегти XML\n1 - зберегти JSON\n2 - зберегти SOAP\nОберіть: ");
-            string? temp_choice = Console.ReadLine();
-            int choice = 0;
-            if (temp_choice != null)
-                choice = int.Parse(temp_choice);
             if (storage_media != null)
-            {
-                switch (choice)
-                {
-                    case 0:
-                        XMLSerialize soap = new();
-                        soap.Save(ref storage_media);
-                        break;
-                    case 1:
-                        JSONSerialize json_serializer = new();
-                        json_serializer.Save(ref storage_media);
-                        break;
-                    case 2:
-                        SoapSerialize soap_serialize = new();
-                        soap_serialize.Save(ref storage_media);
-                        break;
-                }
-            }
+                obj.Save<List<Storage_Medium>>(ref storage_media);
         }
 
-        public void Load()
+        public void Load(ISerialize obj)
         {
-            Console.Write("0 - завантажити XML\n1 - завантажити JSON\n2 - завантажити SOAP\nОберіть: ");
-            string? temp_choice = Console.ReadLine();
-            int choice = 0;
-            if (temp_choice != null)
-                choice = int.Parse(temp_choice);
-            switch(choice)
-            {
-                case 0:
-                    XMLSerialize soap = new();
-                    soap.Load(ref storage_media);
-                    break;
-                case 1:
-                    JSONSerialize json_serializer = new();
-                    json_serializer.Load(ref storage_media);
-                    break;
-                case 2:
-                    SoapSerialize soap_serialize = new();
-                    soap_serialize.Load(ref storage_media);
-                    break;
-            }
+            obj.Load<List<Storage_Medium>?>(ref storage_media);
         }
 
         public void Show()
@@ -471,9 +368,10 @@
             if (storage_media != null)
             {
                 Console.Clear();
-                Console.Write("\n\t\t+---- Список носіїв інформвції ----+\n\n");
+                ConsoleLog obj = new();
+                Console.Write("\n\t\t+---- Список носіїв інформації ----+\n\n");
                 foreach (var storage_medium in storage_media)
-                    storage_medium.Print(1);
+                    storage_medium.Print(obj);
             }
         }
     }

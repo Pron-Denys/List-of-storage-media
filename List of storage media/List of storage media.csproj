@@ -9,7 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ConsoleLog\ConsoleLog.csproj" />
+    <ProjectReference Include="..\FileLog\FileLog.csproj" />
+    <ProjectReference Include="..\ILog\ILog.csproj" />
+    <ProjectReference Include="..\ISerialize\ISerialize.csproj" />
+    <ProjectReference Include="..\JSONSerialize\JSONSerialize.csproj" />
     <ProjectReference Include="..\PriceList\PriceList.csproj" />
+    <ProjectReference Include="..\SoapSerialize\SoapSerialize.csproj" />
+    <ProjectReference Include="..\XMLSerialize\XMLSerialize.csproj" />
   </ItemGroup>
 
 </Project>

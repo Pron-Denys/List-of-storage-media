@@ -8,10 +8,34 @@
     ".NETCoreApp,Version=v10.0": {
       "Storage_Medium/1.0.0": {
         "dependencies": {
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
           "ILog": "1.0.0"
         },
         "runtime": {
           "Storage_Medium.dll": {}
+        }
+      },
+      "ConsoleLog/1.0.0": {
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleLog.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FileLog/1.0.0": {
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "runtime": {
+          "FileLog.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ILog/1.0.0": {
@@ -26,6 +50,16 @@
   },
   "libraries": {
     "Storage_Medium/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleLog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileLog/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

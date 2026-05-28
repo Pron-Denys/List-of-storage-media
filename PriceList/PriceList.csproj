@@ -7,10 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SoapFormatter" Version="1.1.9" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\ConsoleLog\ConsoleLog.csproj" />
+    <ProjectReference Include="..\FileLog\FileLog.csproj" />
+    <ProjectReference Include="..\ILog\ILog.csproj" />
     <ProjectReference Include="..\ISerialize\ISerialize.csproj" />
     <ProjectReference Include="..\Storage_Medium\Storage_Medium.csproj" />
   </ItemGroup>

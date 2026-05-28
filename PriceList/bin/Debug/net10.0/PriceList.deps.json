@@ -8,19 +8,35 @@
     ".NETCoreApp,Version=v10.0": {
       "PriceList/1.0.0": {
         "dependencies": {
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
+          "ILog": "1.0.0",
           "ISerialize": "1.0.0",
-          "SoapFormatter": "1.1.9",
           "Storage_Medium": "1.0.0"
         },
         "runtime": {
           "PriceList.dll": {}
         }
       },
-      "SoapFormatter/1.1.9": {
+      "ConsoleLog/1.0.0": {
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
         "runtime": {
-          "lib/netstandard2.0/SoapFormatter.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.9.49678"
+          "ConsoleLog.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FileLog/1.0.0": {
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "runtime": {
+          "FileLog.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -42,6 +58,8 @@
       },
       "Storage_Medium/1.0.0": {
         "dependencies": {
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
           "ILog": "1.0.0"
         },
         "runtime": {
@@ -59,12 +77,15 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SoapFormatter/1.1.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9okRnHpuoOKlTlxid6sddSjZ0OVGbK4EjSf3VvxOLnQfTkV3iGZzSQa2ZYYuD+apairVrPqwZ3lPvcFqR8b7Kw==",
-      "path": "soapformatter/1.1.9",
-      "hashPath": "soapformatter.1.1.9.nupkg.sha512"
+    "ConsoleLog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileLog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ILog/1.0.0": {
       "type": "project",

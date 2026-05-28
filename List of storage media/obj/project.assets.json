@@ -11,6 +11,32 @@
           "lib/netstandard2.0/SoapFormatter.dll": {}
         }
       },
+      "ConsoleLog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleLog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleLog.dll": {}
+        }
+      },
+      "FileLog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FileLog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileLog.dll": {}
+        }
+      },
       "ILog/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -31,12 +57,27 @@
           "bin/placeholder/ISerialize.dll": {}
         }
       },
+      "JSONSerialize/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ISerialize": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSONSerialize.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSONSerialize.dll": {}
+        }
+      },
       "PriceList/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
+          "ILog": "1.0.0",
           "ISerialize": "1.0.0",
-          "SoapFormatter": "1.1.9",
           "Storage_Medium": "1.0.0"
         },
         "compile": {
@@ -46,10 +87,26 @@
           "bin/placeholder/PriceList.dll": {}
         }
       },
+      "SoapSerialize/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ISerialize": "1.0.0",
+          "SoapFormatter": "1.1.9"
+        },
+        "compile": {
+          "bin/placeholder/SoapSerialize.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoapSerialize.dll": {}
+        }
+      },
       "Storage_Medium/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
           "ILog": "1.0.0"
         },
         "compile": {
@@ -57,6 +114,19 @@
         },
         "runtime": {
           "bin/placeholder/Storage_Medium.dll": {}
+        }
+      },
+      "XMLSerialize/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ISerialize": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/XMLSerialize.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XMLSerialize.dll": {}
         }
       }
     }
@@ -74,6 +144,16 @@
         "soapformatter.nuspec"
       ]
     },
+    "ConsoleLog/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleLog/ConsoleLog.csproj",
+      "msbuildProject": "../ConsoleLog/ConsoleLog.csproj"
+    },
+    "FileLog/1.0.0": {
+      "type": "project",
+      "path": "../FileLog/FileLog.csproj",
+      "msbuildProject": "../FileLog/FileLog.csproj"
+    },
     "ILog/1.0.0": {
       "type": "project",
       "path": "../ILog/ILog.csproj",
@@ -84,20 +164,42 @@
       "path": "../ISerialize/ISerialize.csproj",
       "msbuildProject": "../ISerialize/ISerialize.csproj"
     },
+    "JSONSerialize/1.0.0": {
+      "type": "project",
+      "path": "../JSONSerialize/JSONSerialize.csproj",
+      "msbuildProject": "../JSONSerialize/JSONSerialize.csproj"
+    },
     "PriceList/1.0.0": {
       "type": "project",
       "path": "../PriceList/PriceList.csproj",
       "msbuildProject": "../PriceList/PriceList.csproj"
     },
+    "SoapSerialize/1.0.0": {
+      "type": "project",
+      "path": "../SoapSerialize/SoapSerialize.csproj",
+      "msbuildProject": "../SoapSerialize/SoapSerialize.csproj"
+    },
     "Storage_Medium/1.0.0": {
       "type": "project",
       "path": "../Storage_Medium/Storage_Medium.csproj",
       "msbuildProject": "../Storage_Medium/Storage_Medium.csproj"
+    },
+    "XMLSerialize/1.0.0": {
+      "type": "project",
+      "path": "../XMLSerialize/XMLSerialize.csproj",
+      "msbuildProject": "../XMLSerialize/XMLSerialize.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "PriceList >= 1.0.0"
+      "ConsoleLog >= 1.0.0",
+      "FileLog >= 1.0.0",
+      "ILog >= 1.0.0",
+      "ISerialize >= 1.0.0",
+      "JSONSerialize >= 1.0.0",
+      "PriceList >= 1.0.0",
+      "SoapSerialize >= 1.0.0",
+      "XMLSerialize >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -133,8 +235,29 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Users\\User\\source\\repos\\List of storage media\\ConsoleLog\\ConsoleLog.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\ConsoleLog\\ConsoleLog.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\List of storage media\\FileLog\\FileLog.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\FileLog\\FileLog.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\List of storage media\\ILog\\ILog.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\ILog\\ILog.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\List of storage media\\ISerialize\\ISerialize.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\ISerialize\\ISerialize.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\List of storage media\\JSONSerialize\\JSONSerialize.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\JSONSerialize\\JSONSerialize.csproj"
+            },
             "C:\\Users\\User\\source\\repos\\List of storage media\\PriceList\\PriceList.csproj": {
               "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\PriceList\\PriceList.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\List of storage media\\SoapSerialize\\SoapSerialize.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\SoapSerialize\\SoapSerialize.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\List of storage media\\XMLSerialize\\XMLSerialize.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\XMLSerialize\\XMLSerialize.csproj"
             }
           }
         }
@@ -171,7 +294,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

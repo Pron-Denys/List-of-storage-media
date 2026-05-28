@@ -17,3 +17,8 @@ C:\Users\User\source\repos\List of storage media\PriceList\obj\Debug\net10.0\Pri
 C:\Users\User\source\repos\List of storage media\PriceList\obj\Debug\net10.0\ref\PriceList.dll
 C:\Users\User\source\repos\List of storage media\PriceList\bin\Debug\net10.0\ISerialize.dll
 C:\Users\User\source\repos\List of storage media\PriceList\bin\Debug\net10.0\ISerialize.pdb
+C:\Users\User\source\repos\List of storage media\PriceList\obj\Debug\net10.0\PriceList.sourcelink.json
+C:\Users\User\source\repos\List of storage media\PriceList\bin\Debug\net10.0\ConsoleLog.dll
+C:\Users\User\source\repos\List of storage media\PriceList\bin\Debug\net10.0\FileLog.dll
+C:\Users\User\source\repos\List of storage media\PriceList\bin\Debug\net10.0\ConsoleLog.pdb
+C:\Users\User\source\repos\List of storage media\PriceList\bin\Debug\net10.0\FileLog.pdb

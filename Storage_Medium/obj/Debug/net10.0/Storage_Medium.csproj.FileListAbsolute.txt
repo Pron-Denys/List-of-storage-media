@@ -13,3 +13,8 @@ C:\Users\User\source\repos\List of storage media\Storage_Medium\obj\Debug\net10.
 C:\Users\User\source\repos\List of storage media\Storage_Medium\obj\Debug\net10.0\refint\Storage_Medium.dll
 C:\Users\User\source\repos\List of storage media\Storage_Medium\obj\Debug\net10.0\Storage_Medium.pdb
 C:\Users\User\source\repos\List of storage media\Storage_Medium\obj\Debug\net10.0\ref\Storage_Medium.dll
+C:\Users\User\source\repos\List of storage media\Storage_Medium\obj\Debug\net10.0\Storage_Medium.sourcelink.json
+C:\Users\User\source\repos\List of storage media\Storage_Medium\bin\Debug\net10.0\ConsoleLog.dll
+C:\Users\User\source\repos\List of storage media\Storage_Medium\bin\Debug\net10.0\FileLog.dll
+C:\Users\User\source\repos\List of storage media\Storage_Medium\bin\Debug\net10.0\ConsoleLog.pdb
+C:\Users\User\source\repos\List of storage media\Storage_Medium\bin\Debug\net10.0\FileLog.pdb

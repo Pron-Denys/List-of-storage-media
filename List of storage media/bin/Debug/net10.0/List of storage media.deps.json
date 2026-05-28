@@ -8,7 +8,14 @@
     ".NETCoreApp,Version=v10.0": {
       "List of storage media/1.0.0": {
         "dependencies": {
-          "PriceList": "1.0.0"
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
+          "ILog": "1.0.0",
+          "ISerialize": "1.0.0",
+          "JSONSerialize": "1.0.0",
+          "PriceList": "1.0.0",
+          "SoapSerialize": "1.0.0",
+          "XMLSerialize": "1.0.0"
         },
         "runtime": {
           "List of storage media.dll": {}
@@ -19,6 +26,28 @@
           "lib/netstandard2.0/SoapFormatter.dll": {
             "assemblyVersion": "1.1.0.0",
             "fileVersion": "1.1.9.49678"
+          }
+        }
+      },
+      "ConsoleLog/1.0.0": {
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleLog.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FileLog/1.0.0": {
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "runtime": {
+          "FileLog.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -38,10 +67,23 @@
           }
         }
       },
+      "JSONSerialize/1.0.0": {
+        "dependencies": {
+          "ISerialize": "1.0.0"
+        },
+        "runtime": {
+          "JSONSerialize.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PriceList/1.0.0": {
         "dependencies": {
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
+          "ILog": "1.0.0",
           "ISerialize": "1.0.0",
-          "SoapFormatter": "1.1.9",
           "Storage_Medium": "1.0.0"
         },
         "runtime": {
@@ -51,12 +93,37 @@
           }
         }
       },
+      "SoapSerialize/1.0.0": {
+        "dependencies": {
+          "ISerialize": "1.0.0",
+          "SoapFormatter": "1.1.9"
+        },
+        "runtime": {
+          "SoapSerialize.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Storage_Medium/1.0.0": {
         "dependencies": {
+          "ConsoleLog": "1.0.0",
+          "FileLog": "1.0.0",
           "ILog": "1.0.0"
         },
         "runtime": {
           "Storage_Medium.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "XMLSerialize/1.0.0": {
+        "dependencies": {
+          "ISerialize": "1.0.0"
+        },
+        "runtime": {
+          "XMLSerialize.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -77,6 +144,16 @@
       "path": "soapformatter/1.1.9",
       "hashPath": "soapformatter.1.1.9.nupkg.sha512"
     },
+    "ConsoleLog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileLog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "ILog/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -87,12 +164,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "JSONSerialize/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PriceList/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "SoapSerialize/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Storage_Medium/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XMLSerialize/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

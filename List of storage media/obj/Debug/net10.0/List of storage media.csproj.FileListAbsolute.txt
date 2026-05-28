@@ -23,3 +23,14 @@ C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug
 C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\SoapFormatter.dll
 C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ISerialize.dll
 C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ISerialize.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\obj\Debug\net10.0\List of storage media.sourcelink.json
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ConsoleLog.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\FileLog.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\JSONSerialize.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\SoapSerialize.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\XMLSerialize.dll
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\ConsoleLog.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\FileLog.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\JSONSerialize.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\SoapSerialize.pdb
+C:\Users\User\source\repos\List of storage media\List of storage media\bin\Debug\net10.0\XMLSerialize.pdb

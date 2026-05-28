@@ -9,3 +9,4 @@ C:\Users\User\source\repos\List of storage media\ILog\obj\Debug\net10.0\ILog.dll
 C:\Users\User\source\repos\List of storage media\ILog\obj\Debug\net10.0\refint\ILog.dll
 C:\Users\User\source\repos\List of storage media\ILog\obj\Debug\net10.0\ILog.pdb
 C:\Users\User\source\repos\List of storage media\ILog\obj\Debug\net10.0\ref\ILog.dll
+C:\Users\User\source\repos\List of storage media\ILog\obj\Debug\net10.0\ILog.sourcelink.json

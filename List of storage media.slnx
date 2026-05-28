@@ -1,7 +1,12 @@
 <Solution>
+  <Project Path="ConsoleLog/ConsoleLog.csproj" Id="fbb4c233-7f30-4cf6-8a91-a6e3e5ebce96" />
+  <Project Path="FileLog/FileLog.csproj" Id="e171a192-fdf4-4b06-8cc3-acd653f81b37" />
   <Project Path="ILog/ILog.csproj" Id="cefd5dff-fb57-4ea8-b01b-217816c5521f" />
   <Project Path="ISerialize/ISerialize.csproj" Id="3a05ed92-8ff4-4dfc-8f8f-a653e90169b2" />
+  <Project Path="JSONSerialize/JSONSerialize.csproj" Id="092b0a22-e81b-4f42-9afe-80c964cf912a" />
   <Project Path="List of storage media/List of storage media.csproj" />
   <Project Path="PriceList/PriceList.csproj" Id="9831e466-72f8-4421-a3a3-94cd3a6f1475" />
+  <Project Path="SoapSerialize/SoapSerialize.csproj" Id="3db96db1-5b60-40af-a580-d50c530f652a" />
   <Project Path="Storage_Medium/Storage_Medium.csproj" Id="9f6aaead-4406-48ad-89c1-f78a528a4a04" />
+  <Project Path="XMLSerialize/XMLSerialize.csproj" Id="3504ac41-f3d2-4a46-b531-5fc161058a8e" />
 </Solution>

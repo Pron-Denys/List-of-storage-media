@@ -2,6 +2,32 @@
   "version": 4,
   "targets": {
     "net10.0": {
+      "ConsoleLog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleLog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleLog.dll": {}
+        }
+      },
+      "FileLog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ILog": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FileLog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileLog.dll": {}
+        }
+      },
       "ILog/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -15,6 +41,16 @@
     }
   },
   "libraries": {
+    "ConsoleLog/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleLog/ConsoleLog.csproj",
+      "msbuildProject": "../ConsoleLog/ConsoleLog.csproj"
+    },
+    "FileLog/1.0.0": {
+      "type": "project",
+      "path": "../FileLog/FileLog.csproj",
+      "msbuildProject": "../FileLog/FileLog.csproj"
+    },
     "ILog/1.0.0": {
       "type": "project",
       "path": "../ILog/ILog.csproj",
@@ -23,6 +59,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "ConsoleLog >= 1.0.0",
+      "FileLog >= 1.0.0",
       "ILog >= 1.0.0"
     ]
   },
@@ -59,6 +97,12 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Users\\User\\source\\repos\\List of storage media\\ConsoleLog\\ConsoleLog.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\ConsoleLog\\ConsoleLog.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\List of storage media\\FileLog\\FileLog.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\FileLog\\FileLog.csproj"
+            },
             "C:\\Users\\User\\source\\repos\\List of storage media\\ILog\\ILog.csproj": {
               "projectPath": "C:\\Users\\User\\source\\repos\\List of storage media\\ILog\\ILog.csproj"
             }
@@ -97,7 +141,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
