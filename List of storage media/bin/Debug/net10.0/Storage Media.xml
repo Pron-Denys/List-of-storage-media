@@ -24,4 +24,12 @@
     <Quantity>1005</Quantity>
     <Spindle_Speed>18</Spindle_Speed>
   </Storage_Medium>
+  <Storage_Medium xsi:type="FlashMemory">
+    <Name>Company Towers</Name>
+    <Model>P110</Model>
+    <Item_Name>Flash-пам'ять</Item_Name>
+    <Capacity>71</Capacity>
+    <Quantity>1450</Quantity>
+    <USB_Speed>8</USB_Speed>
+  </Storage_Medium>
 </ArrayOfStorage_Medium>

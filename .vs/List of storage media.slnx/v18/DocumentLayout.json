@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\List of storage media\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17CE6D9B-43F2-AF76-0C26-2214A252CB20}|List of storage media\\List of storage media.csproj|c:\\users\\user\\source\\repos\\list of storage media\\list of storage media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17CE6D9B-43F2-AF76-0C26-2214A252CB20}|List of storage media\\List of storage media.csproj|solutionrelative:list of storage media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9831E466-72F8-4421-A3A3-94CD3A6F1475}|PriceList\\PriceList.csproj|c:\\users\\user\\source\\repos\\list of storage media\\pricelist\\pricelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9831E466-72F8-4421-A3A3-94CD3A6F1475}|PriceList\\PriceList.csproj|solutionrelative:pricelist\\pricelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CE6D9B-43F2-AF76-0C26-2214A252CB20}|List of storage media\\List of storage media.csproj|c:\\users\\user\\source\\repos\\list of storage media\\list of storage media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CE6D9B-43F2-AF76-0C26-2214A252CB20}|List of storage media\\List of storage media.csproj|solutionrelative:list of storage media\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F6AAEAD-4406-48AD-89C1-F78A528A4A04}|Storage_Medium\\Storage_Medium.csproj|c:\\users\\user\\source\\repos\\list of storage media\\storage_medium\\storage_medium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F6AAEAD-4406-48AD-89C1-F78A528A4A04}|Storage_Medium\\Storage_Medium.csproj|solutionrelative:storage_medium\\storage_medium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E171A192-FDF4-4B06-8CC3-ACD653F81B37}|FileLog\\FileLog.csproj|c:\\users\\user\\source\\repos\\list of storage media\\filelog\\filelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E171A192-FDF4-4B06-8CC3-ACD653F81B37}|FileLog\\FileLog.csproj|solutionrelative:filelog\\filelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DB96DB1-5B60-40AF-A580-D50C530F652A}|SoapSerialize\\SoapSerialize.csproj|c:\\users\\user\\source\\repos\\list of storage media\\soapserialize\\soapserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB96DB1-5B60-40AF-A580-D50C530F652A}|SoapSerialize\\SoapSerialize.csproj|solutionrelative:soapserialize\\soapserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBB4C233-7F30-4CF6-8A91-A6E3E5EBCE96}|ConsoleLog\\ConsoleLog.csproj|c:\\users\\user\\source\\repos\\list of storage media\\consolelog\\consolelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB4C233-7F30-4CF6-8A91-A6E3E5EBCE96}|ConsoleLog\\ConsoleLog.csproj|solutionrelative:consolelog\\consolelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB96DB1-5B60-40AF-A580-D50C530F652A}|SoapSerialize\\SoapSerialize.csproj|c:\\users\\user\\source\\repos\\list of storage media\\soapserialize\\soapserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB96DB1-5B60-40AF-A580-D50C530F652A}|SoapSerialize\\SoapSerialize.csproj|solutionrelative:soapserialize\\soapserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{092B0A22-E81B-4F42-9AFE-80C964CF912A}|JSONSerialize\\JSONSerialize.csproj|c:\\users\\user\\source\\repos\\list of storage media\\jsonserialize\\jsonserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{092B0A22-E81B-4F42-9AFE-80C964CF912A}|JSONSerialize\\JSONSerialize.csproj|solutionrelative:jsonserialize\\jsonserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E171A192-FDF4-4B06-8CC3-ACD653F81B37}|FileLog\\FileLog.csproj|c:\\users\\user\\source\\repos\\list of storage media\\filelog\\filelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E171A192-FDF4-4B06-8CC3-ACD653F81B37}|FileLog\\FileLog.csproj|solutionrelative:filelog\\filelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3504AC41-F3D2-4A46-B531-5FC161058A8E}|XMLSerialize\\XMLSerialize.csproj|c:\\users\\user\\source\\repos\\list of storage media\\xmlserialize\\xmlserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "JSONSerialize.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\JSONSerialize\\JSONSerialize.cs",
               "RelativeDocumentMoniker": "JSONSerialize\\JSONSerialize.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\JSONSerialize\\JSONSerialize.cs",
               "RelativeToolTip": "JSONSerialize\\JSONSerialize.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T08:21:53.109Z"
             },
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "SoapSerialize.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\SoapSerialize\\SoapSerialize.cs",
               "RelativeDocumentMoniker": "SoapSerialize\\SoapSerialize.cs",
@@ -86,11 +86,12 @@
               "RelativeToolTip": "SoapSerialize\\SoapSerialize.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:15:51.988Z"
+              "WhenOpened": "2026-05-28T08:15:51.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FileLog.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\FileLog\\FileLog.cs",
               "RelativeDocumentMoniker": "FileLog\\FileLog.cs",
@@ -108,7 +109,7 @@
               "RelativeDocumentMoniker": "ConsoleLog\\ConsoleLog.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\ConsoleLog\\ConsoleLog.cs",
               "RelativeToolTip": "ConsoleLog\\ConsoleLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T07:48:56.622Z"
             },
@@ -126,15 +127,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PriceList.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\PriceList\\PriceList.cs",
               "RelativeDocumentMoniker": "PriceList\\PriceList.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\PriceList\\PriceList.cs",
               "RelativeToolTip": "PriceList\\PriceList.cs",
-              "ViewState": "AgIAADsBAAAAAAAAAAAowAYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwEsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:34:01.787Z"
+              "WhenOpened": "2026-05-18T11:34:01.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -156,19 +158,20 @@
               "RelativeDocumentMoniker": "Storage_Medium\\Storage_Medium.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\Storage_Medium\\Storage_Medium.cs",
               "RelativeToolTip": "Storage_Medium\\Storage_Medium.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAUwHsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:36:36.817Z"
+              "WhenOpened": "2026-05-18T09:36:36.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\List of storage media\\List of storage media\\Program.cs",
               "RelativeDocumentMoniker": "List of storage media\\Program.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\List of storage media\\List of storage media\\Program.cs",
               "RelativeToolTip": "List of storage media\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T16:44:03.224Z",
               "EditorCaption": ""

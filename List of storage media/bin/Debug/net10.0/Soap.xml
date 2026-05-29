@@ -9,21 +9,21 @@
       <item href="#ref-3" />
       <item href="#ref-4" />
     </SOAP-ENC:Array>
-    <a2:DVD_Disc id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Storage_Medium/Storage_Medium%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-      <_x003C_Write_Speed_x003E_k__BackingField>12</_x003C_Write_Speed_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Name_x003E_k__BackingField id="ref-5">www</Storage_Medium_x002B__x003C_Name_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Model_x003E_k__BackingField id="ref-6">www</Storage_Medium_x002B__x003C_Model_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField id="ref-7">DVD диск</Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Capacity_x003E_k__BackingField>100</Storage_Medium_x002B__x003C_Capacity_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Quantity_x003E_k__BackingField>450</Storage_Medium_x002B__x003C_Quantity_x003E_k__BackingField>
-    </a2:DVD_Disc>
-    <a2:FlashMemory id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Storage_Medium/Storage_Medium%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+    <a2:FlashMemory id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Storage_Medium/Storage_Medium%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
       <_x003C_USB_Speed_x003E_k__BackingField>8</_x003C_USB_Speed_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Name_x003E_k__BackingField id="ref-8">qqq</Storage_Medium_x002B__x003C_Name_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Model_x003E_k__BackingField id="ref-9">qqq</Storage_Medium_x002B__x003C_Model_x003E_k__BackingField>
-      <Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField id="ref-10">Flash-пам'ять</Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Name_x003E_k__BackingField id="ref-5">qqq</Storage_Medium_x002B__x003C_Name_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Model_x003E_k__BackingField id="ref-6">qqq</Storage_Medium_x002B__x003C_Model_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField id="ref-7">Flash-пам'ять</Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField>
       <Storage_Medium_x002B__x003C_Capacity_x003E_k__BackingField>90</Storage_Medium_x002B__x003C_Capacity_x003E_k__BackingField>
       <Storage_Medium_x002B__x003C_Quantity_x003E_k__BackingField>156</Storage_Medium_x002B__x003C_Quantity_x003E_k__BackingField>
     </a2:FlashMemory>
+    <a2:Removable_HDD id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Storage_Medium/Storage_Medium%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_Spindle_Speed_x003E_k__BackingField>5</_x003C_Spindle_Speed_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Name_x003E_k__BackingField id="ref-8">hhh</Storage_Medium_x002B__x003C_Name_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Model_x003E_k__BackingField id="ref-9">hhh</Storage_Medium_x002B__x003C_Model_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField id="ref-10">знімний HDD</Storage_Medium_x002B__x003C_Item_Name_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Capacity_x003E_k__BackingField>86</Storage_Medium_x002B__x003C_Capacity_x003E_k__BackingField>
+      <Storage_Medium_x002B__x003C_Quantity_x003E_k__BackingField>100</Storage_Medium_x002B__x003C_Quantity_x003E_k__BackingField>
+    </a2:Removable_HDD>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
